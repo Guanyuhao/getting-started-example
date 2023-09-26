@@ -1,9 +1,11 @@
 # Lerna Getting Started Example
 
-jest 配置 Monorepo
+- jest 配置支持 Monorepo
+- 轻量Monorepo Lerna + pnpm + workspace
+- 增加 git-validator
 
 ```
-yarn 
+pnpm install 
 lerna run build
 lerna run test 
 ```
