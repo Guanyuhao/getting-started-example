@@ -1,0 +1,24 @@
+{
+	"folders": [
+		{
+			"path": "."
+		},
+		{
+			"name": "header",
+			"path": "packages/header"
+		},
+		{
+			"name": "remixapp",
+			"path": "packages/remixapp"
+		},
+		{
+			"name": "footer",
+			"path": "packages/footer"
+		}
+	],
+	"settings": {
+		"jest.disabledWorkspaceFolders": [
+			"getting-started-example"
+		]
+	}
+}
