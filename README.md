@@ -8,7 +8,7 @@ lerna run build
 lerna run test 
 ```
 
-## 缓存优化
+## 构建是否缓存测试
 ```
 lerna run build --scope=header
 ```
