@@ -4,7 +4,13 @@
   "workspaces": [
     "packages/*"
   ],
+  "scripts": {
+    "postinstall": "git-validator install",
+    "style": "git-validator",
+    "style:update": "git-validator -u"
+  },
   "devDependencies": {
+    "git-validator": "^0.10.3",
     "lerna": "^7.1.5"
   },
   "volta": {
